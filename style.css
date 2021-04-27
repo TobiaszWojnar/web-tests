@@ -20,7 +20,7 @@ html, body {
 }
 
 .county {
-    fill: #d5cbc4;
+    /*fill: #d5cbc4;*/
     stroke: #746143;
     stroke-width: 0.5;
 }
@@ -43,3 +43,11 @@ html, body {
     pointer-events: none;
 }
 
+.legend {
+    display: table;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    height: 35px;
+    width: 250px;
+}
